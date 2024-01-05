@@ -52,8 +52,15 @@ How to execute the codes:
 
 * Status of the end effector
 
-<img src="/imgs/end_p.png" width="600">
+<img src="/imgs/end_p.png" width="800">
 <img src="/imgs/end_v.png" width="800">
-<img src="/imgs/end_a.png" width="400">
+<img src="/imgs/end_a.png" width="800">
 
 * Status of each joint
+
+<img src="/imgs/joint1.png" width="800">
+<img src="/imgs/joint2.png" width="800">
+<img src="/imgs/joint3.png" width="800">
+<img src="/imgs/joint4.png" width="800">
+<img src="/imgs/joint5.png" width="800">
+<img src="/imgs/joint6.png" width="800">
