@@ -50,4 +50,10 @@ How to execute the codes:
 
 ## Results
 
+* Status of the end effector
 
+<img src="/imgs/end_p.png" width="400">
+<img src="/imgs/end_v.png" width="400">
+<img src="/imgs/end_a.png" width="400">
+
+* Status of each joint
