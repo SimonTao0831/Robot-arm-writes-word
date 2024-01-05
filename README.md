@@ -7,7 +7,7 @@ A UR5e robotic arm model was created in MATLAB and used to write the word "FLOW"
 There are two '*.m' files in this directory with two methods to write 'FLOW'.
 
 Method 1 demo:
-![flow1_gif1](/imgs/flow1_video.gif)
+<img src="/imgs/flow1_video.gif" width="400">
 
 ![flow1_gif2](/imgs/flow1_video2.gif)
 
