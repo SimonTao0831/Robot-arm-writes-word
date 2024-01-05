@@ -1,8 +1,18 @@
 # Robot-arm-writes-word
 
+## Introduction
+
 A UR5e robotic arm model was created in MATLAB and used to write the word "FLOW". A quintic spline interpolation method was implemented to generate the end-effect trajectories.
 
 There are two '*.m' files in this directory with two methods to write 'FLOW'.
+
+Method 1 demo:
+![flow1_gif1](/imgs/flow1_video.gif)
+
+![flow1_gif2](/imgs/flow1_video2.gif)
+
+Method 2 demo:
+![flow2_gif](/imgs/flow2_video.gif)
 
 The 'functions' file is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
 
@@ -29,3 +39,7 @@ The problem is that there is a cumulative error, if we can add PID controller fo
 
 How to execute the codes:
 1. Open 'mian2.m' in MATLAB, click 'Run'.
+
+## Results
+
+
