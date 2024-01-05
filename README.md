@@ -8,13 +8,15 @@ There are two '*.m' files in this directory with two methods to write 'FLOW'.
 
 Method 1 demo:
 
+<p align="center">
 <img src="/imgs/flow1_video.gif" width="400">
-
-<img src="/imgs/flow1_video2.gif" width="400">
-
+</p>
+<p align="center">
+<img src="/imgs/flow1_video2.gif" width="400">{:.centered}
+</p>
 Method 2 demo:
 
-<img src="/imgs/flow2_video.gif" width="400">
+<img src="/imgs/flow2_video.gif" width="400">{:.centered}
 
 The 'functions' file is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
 
