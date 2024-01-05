@@ -22,12 +22,12 @@ Method 2 demo:
 <img src="/imgs/flow2_video.gif" width="400">
 </p>
 
-The 'functions' file is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
+The **'functions' file** is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
 
 ---
 * Method 1
 
-The method 1 is used in 'main1.m'. The implementation details are as following:
+The method 1 is used in **'main1.m'**. The implementation details are as following:
 (1) Set the way points.
 (2) Choose two points in order, and add interpolation points as via points.
 (3) In joint space, compute quintic spline interpolation.
@@ -38,7 +38,7 @@ How to execute the codes:
 ---
 * Method 2
 
-The method 2 is used in 'main2.m'. The main idea is $\dot{x} = J*\dot{q}$. We know the path of the end effector, if we also know the cost time of each letter, we can get the average velocity $\dot{x}$. Then we can apply the following formulas:
+The method 2 is used in **'main2.m'**. The main idea is $\dot{x} = J*\dot{q}$. We know the path of the end effector, if we also know the cost time of each letter, we can get the average velocity $\dot{x}$. Then we can apply the following formulas:
 
 (1) $\dot{q} = J^T(JJ^T)^{-1}*\dot{x}$
 
