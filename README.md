@@ -22,7 +22,7 @@ Method 2 demo:
 <img src="/imgs/flow2_video.gif" width="400">
 </p>
 
-The **'functions' file** is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
+The **'functions' folder** is important, which contains code to implement various functions, should be added into the path before running the code in MATLAB. The relevant operation is already in the code (addpath('functions');).
 
 ---
 * Method 1
