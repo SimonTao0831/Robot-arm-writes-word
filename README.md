@@ -40,8 +40,8 @@ How to execute the codes:
 
 The method 2 is used in 'main2.m'. The main idea is x_dot = J*q_dot. We know the path of the end effector, if we also know the cost time of each letter, we can get the average velocity 'x_dot'. Then we can apply the following formulas:
 
-(1) q_dot = J^T(JJ^T)^(-1)*x_dot;
-(2) q = q0 + q_dot;
+(1) $q_dot = J^T(JJ^T)^(-1)*x_dot$;
+(2) $q = q0 + q_dot$;
 
 The problem is that there is a cumulative error, if we can add PID controller for feedback control, the effect should be better.
 
